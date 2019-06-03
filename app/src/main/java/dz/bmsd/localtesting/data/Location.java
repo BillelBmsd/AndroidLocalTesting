@@ -1,4 +1,4 @@
-package dz.bmsd.localtesting;
+package dz.bmsd.localtesting.data;
 
 public class Location {
 

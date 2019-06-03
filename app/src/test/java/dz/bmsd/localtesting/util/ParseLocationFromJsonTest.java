@@ -1,10 +1,12 @@
-package dz.bmsd.localtesting;
+package dz.bmsd.localtesting.util;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import static dz.bmsd.localtesting.FileReaderUtil.readFile;
-import static dz.bmsd.localtesting.JsonParser.parseLocationFromJson;
+import dz.bmsd.localtesting.data.Location;
+
+import static dz.bmsd.localtesting.util.FileReaderUtil.readFile;
+import static dz.bmsd.localtesting.util.JsonParser.parseLocationFromJson;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.junit.Assert.*;

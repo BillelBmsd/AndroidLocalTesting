@@ -1,9 +1,11 @@
-package dz.bmsd.localtesting;
+package dz.bmsd.localtesting.util;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
+
+import dz.bmsd.localtesting.data.Location;
 
 public class JsonParser {
 

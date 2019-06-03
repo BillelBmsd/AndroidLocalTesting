@@ -1,10 +1,10 @@
-package dz.bmsd.localtesting;
+package dz.bmsd.localtesting.util;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.is;
-import static dz.bmsd.localtesting.FirstNameExtractor.*;
+import static dz.bmsd.localtesting.util.FirstNameExtractor.*;
 
 public class FirstNameExtractorTest {
 

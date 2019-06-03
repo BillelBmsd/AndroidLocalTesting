@@ -1,4 +1,4 @@
-package dz.bmsd.localtesting;
+package dz.bmsd.localtesting.util;
 
 import java.io.File;
 import java.io.FileNotFoundException;
